@@ -3,7 +3,7 @@ body {
     color: #D7DADC;
 }
 
-/* Container used to manipulate the main content box */
+/* Container used to manipulate the main content box. */
 
 .main-container {
     display: flex;
@@ -11,7 +11,7 @@ body {
     border-top: 1px solid #fff;
 }
 
-/* Container used to manipulate the form container's content */
+/* Container used to manipulate the form container's content. */
 
 .form-container {
     display: flex;
