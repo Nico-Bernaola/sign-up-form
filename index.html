@@ -8,13 +8,52 @@
     <link rel="stylesheet" href="reset.css">
     <title>Sign up Form</title>
 </head>
-<body>
-    <div class="main-container">
-        <div class="form-container">
-        <form action="">
-            <p>Lorem ipsum dolor sit amet.</p>
-        </form>
+    <body>
+        <div class="main-container">
+            <div class="form-container">
+                <div class="img-logo">
+                </div>
+                <div class="form-content">
+                    <form action="#" method="get">
+                        <h1>This is not a real online service!
+                            You know you need something like this
+                            in your life to help you realize your deepest dreams.
+                            Sign up now to get started.
+                        </h1>
+                        <br>
+                        <h1>You know you want to.</h1>
+                        <br>
+                        <br>
+                        <h2>Let's do this!</h2>
+                        <!-- Now it's time for the inputs-->
+                        <div class="inputs">
+                            <label for="first_name">*First Name:</label>
+                            <input type="text" id="first_name" name="first_name" required>
+                            <br>
+                            <label for="last_name">*Last Name:</label>
+                            <input type="text" id="last_name" name="last_name" required>
+                            <br>
+                            <label for="user_email">*Email:</label>
+                            <input type="email" id="user_email" name="email" required>
+                            <br>
+                            <label for="phone_number">*Phone Number:</label>
+                            <input type="number" id="phone_number" name="phone_number">
+                            <br>
+                            <label for="user_password">*Password:</label>
+                            <input type="password" id="user_password" name="user_password" required>
+                            <br>
+                            <label for="confirm_password">*Confirm Password:</label>
+                            <input type="password" id="confirm_password" name="confirm_password" required>
+                        </div>
+                        <div class="data-getter">
+                            <input type="submit" value="Create Account" class="submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-    </div>
-</body>
+
+
+        <script src="code.js"></script>
+    </body>
 </html>

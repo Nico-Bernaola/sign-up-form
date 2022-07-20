@@ -11,12 +11,28 @@ body {
     border-top: 1px solid #fff;
 }
 
-/* Container used to manipulate the form container's content. */
+/* Container used to manipulate the form container's box. */
 
 .form-container {
     display: flex;
     justify-content: center;
     height: 100vh;
-    width: 125vh;
+    width: 105vh;
     border: 1px solid #fff;
+}
+
+.img-logo{
+
+}
+
+.form-content {
+
+}
+
+.form-content .inputs {
+
+}
+
+.form-content .data-getter {
+    
 }
