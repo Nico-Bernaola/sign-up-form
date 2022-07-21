@@ -44,13 +44,14 @@ body {
 .form-content {
     display: flex;
     justify-content: center;
-    margin-left: 35px;
+    /*margin-left: 35px;*/
     font-size: 20px;
 }
 
 .form-content .form-header {
     margin-top: 18vh;
     width: 80%;
+    margin-left: 38px;
 }
 
 .form-content .form-header .input-header{
@@ -62,12 +63,14 @@ body {
     padding-bottom: 20px;
     border-bottom: 1px solid gray;
     gap: 5vw;
+    
 }
 
 .form-content .inputs .inputs-left, .inputs-right {
     display: flex;
     flex-flow: column;
     width: 35%;
+    margin-left: 35px;
 }
 
 .form-content .inputs .inputs-left .input, .inputs-right .input {
@@ -89,6 +92,7 @@ body {
 
 .form-content .data-getter {
     margin-top: 20px;
+    margin-left: 35px;
 }
 
 /* Modifies the submit input button */
