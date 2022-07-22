@@ -3,10 +3,15 @@
     --bg: #181818;
 }
 
-::selection {
+*::selection {
     color: white;
     background: #5F528A;
-  }
+}
+
+*::-moz-selection {
+    color: white;
+    background: #5F528A;
+}
 
 body {
     background-color: #070707;
@@ -67,10 +72,6 @@ body {
     margin-bottom: 10px;
     width: 85%;
     margin-left: 38px;
-}
-
-.form-content .form-header .lil-header{
-    
 }
 
 .input-header {
