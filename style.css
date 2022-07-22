@@ -3,6 +3,11 @@
     --bg: #181818;
 }
 
+::selection {
+    color: white;
+    background: #5F528A;
+  }
+
 body {
     background-color: #070707;
     color: #D7DADC;
